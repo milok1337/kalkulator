@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(79, 44, 79);
+}
+#cal{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    margin: 10vh auto 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+}
+#ekran{
+    background-color: white;
+    width: 390px;
+    height: 455px;
+    margin-left: 5px;
+    margin-top: -20px;
+    position: absolute;
+    border-radius: 10px;
+
+    background-image: radial-gradient(#000 20%, transparent 1%);
+    background-size: 7.5px 7.5px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+}
+#wyswietlacz{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#wyswietlacz p{
+    float: right;
+    margin-right: 40px;
+}
+#klawisze{
+    background-color:white;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 90px;
+    background-image: radial-gradient(#000 20%, transparent 1%);
+    background-size: 7.5px 7.5px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+#klawisze{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+}
+#klawisze > div{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.button{
+    height: 59px;
+    border: 0.5px solid black;
+    line-height: 59px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    background-color: white;
+}
+.button1{
+    width: 138.5px;
+    height: 59px;
+    background-color: red;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 377px;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    background-color: white;
+    line-height: 59px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.button:hover{
+    background-color: rgb(79, 44, 79);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.button1:hover{
+    background-color: red;
+    color:white;
+    transition: 0.5s ease-in-out;
+}
